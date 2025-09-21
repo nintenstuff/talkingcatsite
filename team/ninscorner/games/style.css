@@ -1,0 +1,32 @@
+h1{
+    color: white;
+    text-align:center;
+}
+
+p {
+    font-family: "Comic Sans MS";
+    color:cornsilk;
+    text-align: center;
+}
+
+body {
+    background-color:  black;
+}
+
+.sizy{
+    width: 2.5%;
+}
+
+a {
+    font-family: "Comic Sans MS";
+}
+
+.warn {
+    color: red;
+    text-align: center;
+}
+
+iframe{
+    margin: 0 auto;
+    display: block;
+}

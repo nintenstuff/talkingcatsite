@@ -1,0 +1,28 @@
+.oing{
+    color:grey;
+    font-family: arial;
+}
+
+p {
+    font-family: "Comic Sans MS";
+    color:cornsilk
+}
+
+.texts{
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+.sizy{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    font-family: "Comic Sans MS";
+}
