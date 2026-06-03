@@ -3,13 +3,17 @@
     font-family: arial;
 }
 
-p {
+.txtes {
     font-family: "Comic Sans MS";
-    color:cornsilk
+    color:cornsilk;
 }
 
 .texts{
     text-align: center;
+}
+
+p {
+    color: cornsilk;
 }
 
 body {
@@ -27,4 +31,8 @@ img{
 
 a {
     font-family: "Comic Sans MS";
+}
+
+.quote{
+    color: white;
 }
