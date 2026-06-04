@@ -47,3 +47,13 @@ a {
     width: 70%;
     margin-left: 0;
 }
+
+.meow {
+    width: 20%;
+    transition: width 100ms;
+}
+
+.meow:hover {
+    width: 23%;
+    cursor: pointer;
+}
