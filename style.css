@@ -1,21 +1,17 @@
-.oing{
+h1, h2{
     color:grey;
     font-family: arial;
 }
 
-.txtes {
-    font-family: "Comic Sans MS";
-    color:cornsilk;
-}
-
-.texts{
-    text-align: center;
-    font-family: "Comic Sans MS";
-}
-
 p {
-    color: cornsilk;
+    font-family: "Comic Sans MS";
+    color:rgb(242, 240, 231);
 }
+
+.center{
+    text-align: center;
+}
+
 
 body {
     background-color: black;
@@ -27,13 +23,27 @@ img{
     margin-right: auto;
 }
 .sizy{
-    width: 15%;
+    width: 20%;
 }
 
 a {
     font-family: "Comic Sans MS";
 }
 
+.container{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4, 10%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 .quote{
     color: white;
+}
+
+.quotehr {
+    width: 70%;
+    margin-left: 0;
 }
