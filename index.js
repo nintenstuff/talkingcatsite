@@ -8,13 +8,13 @@ function meow() {
 
     if (x == 0) {
         document.getElementById("notacat").play();
-        catstyle.src = "mischevous-smile.png"
+        catstyle.src = "img/mischevous-smile.png"
     } else if (x > 0 && x < 51) {
         document.getElementById("cat").play();
-        catstyle.src = "LOGOend.png";
+        catstyle.src = "img/LOGOend.png";
     } else if (x > 50 && x < 100) {
         document.getElementById("cat2").play();
-        catstyle.src = "LOGOend.png";
+        catstyle.src = "img/LOGOend.png";
     }
 
     setTimeout(reset, 500);
