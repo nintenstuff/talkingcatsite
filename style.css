@@ -30,7 +30,7 @@ a {
     font-family: "Comic Sans MS";
 }
 
-.container{
+.container-homepage{
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: repeat(4, 10%);
