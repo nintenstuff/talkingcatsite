@@ -1,5 +1,5 @@
 h1, h2{
-    color:grey;
+    color:rgb(233, 229, 229);
     font-family: arial;
 }
 
@@ -28,6 +28,12 @@ img{
 
 a {
     font-family: "Comic Sans MS";
+    color:rgb(174, 174, 174);
+    transition: color 200ms;
+}
+
+a:hover{
+    color: white;
 }
 
 .container-homepage{
@@ -55,7 +61,7 @@ a {
 
 .meow {
     width: 20%;
-    transition: width 100ms;
+    transition: width 150ms;
 }
 
 .icons {
@@ -66,4 +72,9 @@ a {
 .meow:hover {
     width: 23%;
     cursor: pointer;
+}
+
+.toasterquote {
+    width: 40%;
+    margin-left: 0;
 }
