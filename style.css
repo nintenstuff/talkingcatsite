@@ -38,6 +38,11 @@ a {
     margin-bottom: 10px;
 }
 
+.container-team{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .quote{
     color: white;
@@ -51,6 +56,11 @@ a {
 .meow {
     width: 20%;
     transition: width 100ms;
+}
+
+.icons {
+    width: 100px;
+    margin-left: 60;
 }
 
 .meow:hover {
